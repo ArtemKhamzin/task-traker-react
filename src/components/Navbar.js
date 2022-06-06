@@ -20,9 +20,9 @@ const Navbar = () => {
             <ThemeProvider theme={theme}>
             <AppBar position="static">
                 <Toolbar>
-                    <Typography variant="h6" component="div" sx={{ flexGrow: 1, marginLeft: 5 }}>
-                        Task Tracker
-                    </Typography>
+                    <Link to={'/'} style={{ textDecoration: 'none', color: 'inherit', marginRight: 10, flexGrow: 1, marginLeft: 5 }}>
+                        <Typography variant="h6" component="div" sx={{marginLeft: 5 }}>Task Tracker</Typography>
+                    </Link>
                     <Link to={'/login'} style={{ textDecoration: 'none', color: 'inherit', marginRight: 10 }}>
                         <Button color="inherit">Login</Button>
                     </Link>
