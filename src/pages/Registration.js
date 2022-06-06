@@ -9,15 +9,19 @@ const Registration = () => {
             <Grid item>
                 <div style={{position: 'absolute', left: '50%', top: '20%', transform: 'translate(-50%, -50%)', fontSize: '39px'}}>Registration</div>
             </Grid>
+
             <Grid item>
                 <MyInput type="text" id="login" label="Email"/>
             </Grid>
+
             <Grid item>
                 <MyInput type="password" id="password" label="Password"/>
             </Grid>
+
             <Grid item>
                 <MyInput type="password" id="confirmPassword" label="Confirm Password"/>
             </Grid>
+
             <Grid item>
                 <MyButton size="large" variant="contained">Registration</MyButton>
             </Grid>
