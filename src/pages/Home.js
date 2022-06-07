@@ -18,9 +18,9 @@ const Home = () => {
     const [body, setBody] = useState('')
 
     const addNewProject = () => {
-        let lastProjectId = projects.length === 0 ? 1 : projects.sort(a => a.id)[projects.length-1].id + 1
+        let projectId = projects.length === 0 ? 1 : projects.sort(a => a.id)[projects.length-1].id + 1
         const newProject = {
-            id: lastProjectId,
+            id: projectId,
             title,
             body
         }
